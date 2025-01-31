@@ -42,49 +42,48 @@
     <!-- header section start here -->
      <header class="bg-gradient-to-b from-white to-nature-primary">
         <!-- navbar section start here -->
-         <nav class="w-4/5 mx-auto py-5">
-            <div class="navbar">
-                <div class="navbar-start">
-                  <a class=" bg-none hover:bg-none text-xl">
-                    <img class="md:block hidden" src="assets/logo-header.png" alt="">
-                    <img class="md:hidden" src="assets/Group.png" alt="">
-                  </a>
-                </div>
-                <div class="navbar-center hidden md:flex">
-                  <ul class="menu-horizontal px-1 py-3">
-                        <li class="mx-2"><a class="text-xl px-4 py-3" href="#">Product</a></li>
-                        <li class="mx-2"><a class="text-xl px-4 py-3 " href="#">Services</a></li>
-                        <li class="mx-2"><a class="text-xl px-4 py-3 " href="#">Contact us</a></li>
-                  </ul>
-                </div>
-                <div class="navbar-end">
-                    <div class="hidden md:block">
-                        <div class="md:flex items-center">
-                            <span class="mr-7 text-center">
-                                <i class="fa-solid fa-magnifying-glass text-center text-xl"></i>
-                            </span>
-                            <span class="mr-7 text-center">
-                                <i class="fa-solid fa-cart-shopping text-center text-xl"></i>
-                            </span>
-                            <a href="#" class="border border-green-600 py-2 px-5 rounded-lg text-xl mr-3">Login</a>
-                            <a href="#" class="bg-green-600 py-2 px-5 rounded-md text-xl text-white">Register</a>
-                        </div>
-                    </div>
+         <div class="border-green-600 border md:border-none w-full">
+            <nav class="w-4/5 md:container mx-auto py-5 md:py-0">
+                <div class="flex justify-between items-center">
                     <div class="md:hidden">
-                        <i class="fa-solid fa-bars text-xl"></i>
+                        <img src="./assets/Group.png" alt="">
+                    </div>
+                    <div class="hidden md:block">
+                        <img src="./assets/logo-header.png" alt="">
+                    </div>
+                    <div class="md:flex hidden gap-6">
+                        <li class="list-none"><a class="md:text-base lg:text-xl py-3" href="#">Product</a></li>
+                        <li class="list-none"><a class="md:text-base lg:text-xl py-3 " href="#">Services</a></li>
+                        <li class="list-none"><a class="md:text-base lg:text-xl py-3 " href="#">Contact us</a></li>
+                    </div>
+                    <div class="hidden md:flex gap-8 items-center">
+                        <i class="fa-solid fa-magnifying-glass text-center text-xl"></i>
+                        <i class="fa-solid fa-cart-shopping text-center text-xl"></i>
+                        <button class="border border-green-600 py-2 px-5 rounded-lg text-xl mr-3">Login</button>
+                        <button class="bg-green-600 py-2 px-5 rounded-md text-xl text-white">Register</button>
+                    </div>
+                    <div class="md:hidden block ">
+                        <i class="fa-solid fa-bars text-green-600"></i>
                     </div>
                 </div>
-              </div>
-         </nav>
+             </nav>
+         </div>
         <!-- navbar section end here -->
+
+        
 
         <!-- banner section start here -->
          <section>
-            <div class="w-4/5 mx-auto my-16">
-                <div class="text-center mb-12 animate-pulse">
-                    <h2 class="font-semibold text-6xl leading-snug">Freshness <span class="text-green-600">You Can <br>
+            <div class="w-4/5 mx-auto mb-16 mt-20">
+                <div class="text-center mb-12 animate-bounce">
+                    <h2 class="font-semibold text-6xl leading-snug mt-32 md:mt-0">
+                        
+                        Freshness <span class="text-green-600">You Can 
+                            
+                            <br>
                         Count</span> On, Prices You’ll Love!</h2>
                     <p class="text-xl my-10 text-gray-700">Shop your daily essentials at unbeatable prices. From fresh produce to pantry <br> staples, we’ve got you covered every day!</p>
+                    
                 </div>
                 <div>
                     <img class="mx-auto" src="assets/hero-vegetables.png" alt="">
@@ -134,7 +133,7 @@
                 <h2 class="text-green-600 font-semibold text-4xl">Popular Products</h2>
                 <div class="grid grid-cols-1 md:grid-cols-3 mt-10 gap-10">
                     <!-- left card -->
-                    <div class="col-span-1 rounded-lg bg-gradient-to-br from-green-500 to-green-100 pl-10 pr-5 pt-10">
+                    <div class="col-span-2 md:col-span-1 rounded-lg bg-gradient-to-br from-green-500 to-green-100 pl-10 pr-5 pt-10">
                         <h2 class="text-3xl font-semibold text-white">30% off</h2>
                         <p class="my-3">Discover a world of treats, toys, and essentials handpicked for </p>
                         <button class="btn">Buy Now</button>
@@ -259,7 +258,7 @@
         <!-- Popular Products section end here -->
 
         <!-- Arrival & Offers section start here -->
-        <section class="w-4/5 mx-auto my-16">
+        <section class="w-4/5 mx-auto mt-16">
             <h2 class="text-green-600 font-semibold text-4xl">Arrival & Offers</h2>
             <div class="mt-10 grid grid-cols-1 md:grid-cols-5 gap-10">
                 <div class="card col-span-3  bg-green-600 text-black">
@@ -293,7 +292,8 @@
 
 
         <!-- Grocery News! section start here -->
-         <section class="w-4/5 mx-auto bg-nature-primary py-20 px-14 rounded-xl relative top-60">
+        
+        <section class="w-4/5 mx-auto bg-nature-primary py-20 px-14 rounded-xl relative top-48 -mt-20">
             <div class="flex flex-col md:flex-row gap-10 items-center justify-center">
                 <div>
                     <img src="/assets/vegetable-busket.png" alt="">
@@ -305,15 +305,16 @@
                     <button class="mt-10 py-3 px-4 text-white bg-green-600 rounded-md">Subscribe</button>
                 </div>
             </div>
-         </section>
+        </section>
+        
         <!-- Grocery News! section end here -->
      </main>
     <!-- main section end here -->
 
 
     <!-- footer section start here -->
-    <footer class="bg-green-600 pt-72 pb-20">
-        <div class="w-4/5 mx-auto footer text-white flex md:flex-row flex-col items-end">
+    <footer class="bg-green-600 pt-80 pb-20">
+        <div class="w-4/5 mx-auto footer text-white flex md:flex-row flex-col md:items-end">
             <nav class="flex-1">
                 <img src="assets/logo-footer.png" alt="">
                 <p>Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
@@ -323,15 +324,15 @@
                 <a class="link link-hover">Services</a>
                 <a class="link link-hover">Contact Us</a>
             </nav>
-              <nav class="flex-1">
+            <nav class="flex-1">
                 <p class="">Follow Us</p>
                 <div class="grid grid-flow-col gap-6 ">
-                  <a href="#"><i class="fa-brands fa-facebook text-2xl"></i></a>
-                  <a href="#"><i class="fa-brands fa-instagram text-2xl"></i></a>
-                  <a href="#"><i class="fa-brands fa-linkedin text-2xl"></i></a>
-                  <a href="#"><i class="fa-brands fa-youtube text-2xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook text-2xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram text-2xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin text-2xl"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube text-2xl"></i></a>
                 </div>
-              </nav>
+            </nav>
         </div>
       </footer>
     <!-- footer section end here -->
